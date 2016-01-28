@@ -1,7 +1,4 @@
-class FizzBuzz(fizzNumber: Int, buzzNumber: Int) {
-
-    val fizzNumber = fizzNumber
-    val buzzNumber = buzzNumber
+class FizzBuzz(val fizzNumber: Int, val buzzNumber: Int) {
 
     fun runFizzBuzz(range: Int): Array<Any?> {
         val returnArray = arrayOfNulls<Any?>(range)
