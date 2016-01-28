@@ -20,6 +20,6 @@ class FizzBuzz(fizzNumber: Int, buzzNumber: Int) {
 fun main(args: Array<String>) {
     val fizzBuzzes = FizzBuzz(3, 5).runFizzBuzz(100)
     for (i in fizzBuzzes.indices) {
-        println(fizzBuzzes[i])
+        println("${i + 1}: ${fizzBuzzes[i]}")
     }
 }
